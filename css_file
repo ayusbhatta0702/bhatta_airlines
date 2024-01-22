@@ -1,0 +1,307 @@
+body, p{
+    font-family: bahnschrift, sans-serif;
+}
+
+html, body{
+    margin: 0;
+}
+
+.container_img{
+    background-color: rgb(0, 4, 255);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.header_title{
+    position: absolute;
+    color: white;
+    font-size: 700%;
+    top: -10px;
+    left: 0px;
+    padding: 1%;
+}
+
+.header_subtitle{
+    position: relative;
+    color: rgb(1, 1, 83);
+    font-size: 350%;
+    text-shadow: 1px 1px white;
+    top: 130px;
+    left: 0px;
+    padding: 1%;
+}
+
+.container_img img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.menubar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+.menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000768;
+    top: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+}
+  
+.menubar ul li {
+    float: left;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+  
+.menubar ul li a {
+    display: block;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.menubar ul li a:hover {
+    background-color: #00032b;
+}
+
+/* Style for the search container */
+.search {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* Style for the search form */
+.search form {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the search input */
+.search input[type="text"] {
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #00095e;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+/* Style for the search button */
+.search button {
+    background-color: #00095e;
+    color: white;
+    border: 1px solid #00095e;
+    border-radius: 0 5px 5px 0;
+    padding: 8px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+/* Hover effect for the search button */
+.search button:hover {
+    background-color: #0010a3;
+}
+
+/* Style for the search icon inside the button */
+.search button i {
+    margin-right: 5px;
+}
+
+.flex-container1{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+
+.flex-container1 > div {
+    background-color: #ffffff;
+    background-size: cover;
+    width: 40%;
+    height: 300px;
+    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: width 1s;
+}
+
+.left_box{
+    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/08/Temple-in-India_1400-1.jpg");  
+}
+
+.left_box:hover{
+    width: 45%;
+}
+
+.right_box{
+    background-image: url("https://www.blackhillsbadlands.com/sites/default/files/styles/bhb40_page_hero/public/photos/parks-monuments/mount-rushmore-national-memorial/mountrushmorenationalmemorial00002.jpg?itok=DgAcmIfG");
+}
+
+.right_box:hover{
+    width: 45%;
+}
+
+.leftbox_intro { grid-area: left; }
+.rightbox_intro { grid-area: right; }
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+      'left right';
+    padding: 0px;
+    margin: 0;
+}
+
+.grid-container > div {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/* unvisited link */
+a:link {
+    color: #00009e;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #00009e;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000053;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #00009e;
+}
+
+.outlinediv{
+    text-align: center;
+}
+
+.outlinetext{
+    outline: thick dotted blue;
+    padding: 10px;
+    font-size: 150%;
+}
+
+.dropbtn {
+    background-color: #1a0063;
+    position: relative;
+    left: 40px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: bahnschrift, sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+.childblock{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.parabox{
+    background-color: #3e8e41;
+    word-wrap: break-word;
+    left: 20%;
+}
+
+.parabox img{
+    float: right;
+    height: 100%;
+    width: 420px;
+}
+
+.dancing_box {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 45, 170);
+    position: relative;
+    animation: myfirst 10s linear 5s infinite alternate;
+    text-align: center;
+    color: white;
+  }
+  
+  @keyframes myfirst {
+    0%   {background-color:rgb(0, 162, 255); left:0px; top:0px;}
+    50%  {background-color:rgb(0, 0, 63); left:92%; top:0px;}
+    100% {background-color:rgb(76, 0, 255); left:0px; top:0px;}
+  }
+
+.dancing_box p{
+    font-size: 150%;
+}
+
+.weird_box{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+    color: white;
+}
