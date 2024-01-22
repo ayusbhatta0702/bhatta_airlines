@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 2</title>
+        <link rel="stylesheet" href="assn2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container_img">
+                <img src="https://m.media-amazon.com/images/I/617YmXVHk2L._AC_UF1000,1000_QL80_.jpg" alt="boeing">
+                <div class="header_title">Bhatta Airlines</div>
+                <div class="header_subtitle">Make flying a habit</div>
+            </div>
+
+            <div class="search">
+                <form action="#">
+                    <input type="text" name="search" placeholder="Search your destination...">
+                    <button>
+                        <i class="fa fa-search" style="font-size: 18px;"></i>
+                    </button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="menubar">
+                    <ul>
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="flex-container1">
+                    <div class="left_box"></div>
+                    <div class="right_box"></div>
+                </div>
+                <div class="grid-container">
+                    <div class="leftbox_intro"><a href="#">Domestic</a></div>
+                    <div class="rightbox_intro"><a href="#">International</a></div>
+                </div>
+            </section>
+
+            <section>
+                <div class="outlinediv">
+                    <p class="outlinetext">We have started services in Pune and Kolkata</p>
+                </div>
+
+                <div class="inblock">
+                    <div class="dropdown childblock">
+                        <button class="dropbtn">Cities we are in</button>
+                        <div class="dropdown-content">
+                            <a href="#">Pune</a>
+                            <a href="#">Kolkata</a>
+                            <a href="#">Bangaluru</a>
+                            <a href="#">Mumbai</a>
+                        </div>
+                    </div>
+
+                    <div class="parabox childblock">
+                        <p><img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Munnar-Kerala-1.jpg" alt="hills">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, ipsa laudantium natus recusandae nulla porro quos. Culpa laboriosamljbmkjnbyyghigyhygtji7tgtgiunhoyg9yugngyiuhbubmiybuymbhobu ea saepe cumque maiores corrupti. Voluptatum sunt fugiat doloribus facere pariatur minus porro tempora inventore, ratione saepe vero et harum sint quasi rerum cumque, reprehenderit voluptatem tenetur nemo iusto, libero est? Illo placeat impedit similique fugit earum voluptates nesciunt soluta cupiditate. Alias doloremque consequuntur ipsum voluptatem facere! Rem cupiditate tempore repudiandae sunt ipsa, officia voluptate omnis, impedit, optio quibusdam vel unde porro? Error totam tenetur, dolorem accusamus provident nihil in, consectetur id laboriosam fugiat autem ad modi fuga, ducimus reprehenderit! Eos, corporis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dancing_box"><p>Bhatta</p></div>
+                <div class="weird_box"><p>Bhatta</p></div>
+            </section>
+        </main>
+    </body>
+</html>
